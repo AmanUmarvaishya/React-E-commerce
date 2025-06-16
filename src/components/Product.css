@@ -1,0 +1,9 @@
+.All-card{
+    border-radius: 20px solid black;
+    background-color: rgba(89, 81, 119, 0.349);
+}
+
+.img{
+    border: 2px solid black;
+    border-radius: 1rem
+}
