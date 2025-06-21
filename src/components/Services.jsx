@@ -13,7 +13,7 @@ export default function Services() {
         <p>Make order fast</p></div>
         <div><PiMessengerLogoBold style={{fontSize:'4rem', color:'blue'}}/> <h5>We are available 24/7</h5>
         <p>Need help? contact us anyTime</p> </div>
-        <div><GrServices style={{fontSize:'4rem', color:'blue'}}/> <h5>provide good  services</h5>  <p>We are provide service On home delivery</p></div>
+        <div><GrServices style={{fontSize:'4rem', color:'blue'}}/> <h5>provide good  services</h5>  <p>We are provide services fast</p></div>
        
       </div>
     </div>
