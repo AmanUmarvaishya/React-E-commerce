@@ -1,15 +1,13 @@
-body{
-    color: green;
+.navbar-row{
+    display: flex;
+    justify-content: space-around;
 }
 
-@media screen and (min-width: 480px) {
-    .nav2{
-        display: flex;
-        flex-direction: row;
-        background-color: red;
-    }
-    
-}
-.cc{
+@media (max-width:600px) {
+    .navbar-row{
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+    
 }
