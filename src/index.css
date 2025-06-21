@@ -64,7 +64,7 @@ input::placeholder{
 }
 
 
-@media screen and (nax-width : 300px){
+@media (max-width : 600px){
   body{
 overflow-x: hidden;
 
