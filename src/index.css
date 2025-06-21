@@ -66,6 +66,7 @@ input::placeholder{
 
 @media (max-width : 600px){
   body{
+      background-color:red;
 overflow-x: hidden;
 
 }
