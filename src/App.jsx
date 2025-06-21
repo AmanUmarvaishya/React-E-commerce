@@ -10,6 +10,7 @@ import LoginSingup from './components/LoginSingup'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import N from './components/N'
 
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
   return (
     <>
     <Router>
-    <Navbar cart={cart} setData={setData} />
+      <N/>
+    {/* <Navbar cart={cart} setData={setData} /> */}
 
     
     <Routes>

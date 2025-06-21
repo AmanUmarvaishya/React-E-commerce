@@ -62,3 +62,14 @@ input::placeholder{
     align-items: center;
     gap:4rem
 }
+
+
+@media screen and (nax-width : 300px){
+  body{
+overflow-x: hidden;
+
+}
+  
+}
+
+

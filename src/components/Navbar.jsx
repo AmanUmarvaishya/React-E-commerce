@@ -14,31 +14,15 @@ export default function Navbar({ cart, setData }) {
   };
   return (
     <div>
-      <nav className="navbar navbar-expand-lg sticky-top bg-body-tertiary">
-        <div className="container-fluid d-flex cc">
+      <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <img
               src={logo}
               alt=""
               style={{ height: 60, width: 190, borderStartEndRadius: 40 }}
             />
- <div>
-            <form
-              onSubmit={handleSubmit}
-              style={{ width: "40vw" }}
-              className="d-flex ps-5"
-              role="search"
-            >
-              <input
-                className="form-control me-4"
-                type="search"
-                onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Search Elctronics product"
-                aria-label="Search"
-              />
-            </form>
-</div>
-            <div>
+
             <ul className="navbar-nav me-auto mb-2 ps-5 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
@@ -56,7 +40,20 @@ export default function Navbar({ cart, setData }) {
                 </Link>
               </li>
             </ul>
-          
+            <form
+              onSubmit={handleSubmit}
+              style={{ width: "40vw" }}
+              className="d-flex ps-5"
+              role="search"
+            >
+              <input
+                className="form-control me-4"
+                type="search"
+                onChange={(e) => setSearchTerm(e.target.value)}
+                placeholder="Search Elctronics product"
+                aria-label="Search"
+              />
+            </form>
             <Link to="/login">
               {" "}
               <button className="btn btn-outline-primary" type="submit">
@@ -75,9 +72,7 @@ export default function Navbar({ cart, setData }) {
                 </span>
               </button>
             </Link>
-             </div>
           </div>
-          
         </div>
       </nav>
     </div>
