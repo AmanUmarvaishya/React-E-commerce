@@ -20,7 +20,6 @@ const App = () => {
 
   return (
     <>
-     <div style={{width:"100vw"}}>
     <Router>
       <N/>
     {/* <Navbar cart={cart} setData={setData} /> */}
@@ -39,7 +38,7 @@ const App = () => {
    
   <Footer/>
     </Router>
-    </div>
+    
     </>
   )
 }
