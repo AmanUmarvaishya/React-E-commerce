@@ -4,7 +4,12 @@
     justify-content: space-around;
 }
 .list{
-display:flex;}
+    display: flex;
+    
+}
+.list li{
+    margin:5px;
+}
 
 @media (max-width:600px) {
     .navbar-row{
