@@ -10,6 +10,9 @@
     justify-content: space-evenly
     
 }
+input{
+        width: 20rem;
+}
 
 
 @media (max-width:600px) {
