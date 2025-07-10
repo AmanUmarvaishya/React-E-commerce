@@ -21,7 +21,7 @@ export default function N() {
           />
         </div>
         <div>
-          <ul>
+          <ul className="list">
             <li>
               <Link className="nav-link active" aria-current="page" to="/">
                 Home
