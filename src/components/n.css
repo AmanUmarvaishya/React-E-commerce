@@ -6,11 +6,13 @@
 }
 .list{
         color: whitesmoke;
-    font-size:23px;
-    width: 24rem;
+   
+  
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    font-size: 2rem;
+    width: 25rem;
     
 }
 input{
