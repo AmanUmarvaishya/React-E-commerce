@@ -1,17 +1,22 @@
 .navbar-row{
-    margin:18px;
+    background-color:#007BFF;
+    padding:23px;
     display: flex;
     justify-content: space-around;
 }
 .list{
-    width: 15rem;
+        color: whitesmoke;
+    font-size:23px
+    width: 24rem;
     display: flex;
     list-style: none;
     justify-content: space-evenly
     
 }
 input{
-        width: 20rem;
+    height:3rem;
+    border-radius:2rem;
+        width: 24rem;
 }
 
 
