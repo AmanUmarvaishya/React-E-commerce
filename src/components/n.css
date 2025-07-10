@@ -4,7 +4,7 @@
     justify-content: space-around;
 }
 .list{
-        width: 15rem;
+    width: 15rem;
     display: flex;
     list-style: none;
     justify-content: space-evenly
