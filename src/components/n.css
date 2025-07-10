@@ -4,12 +4,13 @@
     justify-content: space-around;
 }
 .list{
+        width: 15rem;
     display: flex;
+    list-style: none;
+    justify-content: space-evenly
     
 }
-.list li{
-    margin:5px;
-}
+
 
 @media (max-width:600px) {
     .navbar-row{
