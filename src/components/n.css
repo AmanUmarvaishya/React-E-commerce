@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-around;
 }
+.list{
+display:flex;}
 
 @media (max-width:600px) {
     .navbar-row{
